@@ -9,7 +9,6 @@ class QuickFind:
         for i in range(len(self.id)):
             if self.id[i] == q:
                 self.id[i] = p
-    
 
     def connected(self, n, m):
         return self.id[n] == self.id[m]
